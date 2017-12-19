@@ -1,0 +1,345 @@
+<html>
+<head>
+	<title>Coffe4You</title>
+	<link rel="stylesheet" href="./css/bootstrap.css" >	
+	<link rel="stylesheet" href="./css/style.css" >
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script src="./js/bootstrap.min.js" ></script>
+	<script src="./js/scrolling-nav.js"></script>
+	<script src="./js/jquery.easing.min.js"></script>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-fixed-top" role="navigation">
+	  		<div class="collapse navbar-collapse navbar-ex1-collapse">
+		        <ul class="nav navbar-nav">
+		          <li><a href="#">Сотрудничество</a></li>
+		          <li><a href="#">Кофемашины</a></li>
+		          <li><a href="#">Кофе</a></li>
+		          <li class="logo"><a class="navbar-brand" href="#"><img src="./img/logo.png"></a></li>
+		          <li><a href="#">Сервис</a></li>
+		          <li><a href="#">О нас</a></li>
+		          <li><a href="#">Контакты</a></li>
+		          <li><a href="#" class="bucket"><img src="./img/7.png"></a></li>
+		        </ul>
+	      	</div>
+		</nav>
+		<div class="header">
+			<img src="./img/background.png" class="absolute" style="width:100%">
+			<div class="test">
+				<h1>Аренда итальянской кофемашины<span><img src="./img/10.png"></span></h1>
+				<div class="hicons inline-block">
+					<ul>
+						<li><img src="./img/1.png"><p>Кафе</p></li>
+						<li><img src="./img/2.png"><p>АЗС</p></li>
+						<li><img src="./img/3.png"><p>Столовая</p></li>
+					</ul>
+					<ul>
+						<li><img src="./img/4.png"><p>Офис</p></li>
+						<li><img src="./img/5.png"><p>Уличный фаст-фуд</p></li>
+						<li><img src="./img/6.png"><p>Гостиница</p></li>
+					</ul>
+				</div>
+				<div class="coffe-order inline-block">
+					<img src="./img/8.png">
+					<p><a class="btn btn-default order" href="#" role="button">Заказать кофемашину прямо сейчас</a></p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="coop">
+		<img src="./img/coop/1.png"><h2>Сотрудничество</h2><hr class="hrbrown">
+		<div class="blockc">
+			<div class="middle-align text inline-block">
+				<h3>Бесплатная аренда кофемашины</h3>
+				<p>Предлагаем Вам удобное кофейное решение с бесплатной установкой,</br> 
+				арендой и сервисом кофемашины. При условии выполнения </br>
+				продаж от 400 порций в месяц (4 кг).</p>
+			</div>
+			<img src="./img/coop/2.png" class="middle-align inline-block">
+		</div>
+		<div class="blockw">
+			<img src="./img/coop/3.png" class="middle-align inline-block">
+			<div class="middle-align text inline-block">
+				<h3>Снабжение натуральным зерновым кофе без предоплаты</h3>
+				<p>Вы платите только за продажу кофе, остальные заботы мы берем на себя.</p>
+			</div>
+		</div>
+		<div class="blockc">
+			<div class="middle-align text inline-block">
+				<h3>В комплект с кофе предоставляются расходники</h3>
+				<p>Стаканчики - 100шт, сахар в стиках - 200шт,деревянные мешалки - 120шт.</br>
+				Бесплатно!</p>
+			</div>
+			<img src="./img/coop/4.png" class="middle-align inline-block">
+		</div>
+		<div class="blockw">
+			<img src="./img/coop/5.png" class="middle-align inline-block">
+			<div class="middle-align text inline-block" style="padding-right: 130px;">
+				<h3>Оплата за продажу кофе</h3>
+				<p>Оплата производится раз в неделю по счетчику,</br>
+				установленому в кофемашине из расчета 4 грн/порция.</p>
+			</div>
+		</div>
+		<div class="forms">
+			<h2 class="black">Закажите машину кофемашину прямо сейчас</h2>
+			<small>Заполните анкету, наш менеджер свяжется с Вами.</small>
+			<div class="container formask">
+				<form class="form-horizontal">
+				  <div class="form-group">
+				    <label for="inputEmail3" class="col-sm-4 control-label">Название бизнеса</label>
+				    <div class="col-sm-6">
+				      <input type="email" class="form-control" id="inputEmail3" placeholder="Введите название Вашего бизнеса">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-4 control-label">Город</label>
+				    <div class="col-sm-6">
+				      <input type="password" class="form-control" id="inputPassword3" placeholder="Укажите район в котором находится Ваш бизнес">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-4 control-label">Потреб порций в день</label>
+				    <div class="col-sm-1">
+				      <input type="password" class="form-control" id="inputPassword3" placeholder="0">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-4 control-label">Контактные данные</label>
+				    <div class="col-sm-3">
+				      <input type="password" class="form-control" id="inputPassword3" placeholder="Email">
+				    </div>
+				    <label for="inputPassword3" class="col-sm-1 control-label phoneholder">+38</label>
+				    <div class="col-sm-2">
+				      <input type="email" class="form-control" id="inputPassword3" placeholder="Email">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-4 control-label">Контактное лицо</label>
+				    <div class="col-sm-3">
+				      <input type="password" class="form-control" id="inputPassword3" placeholder="Имя">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <div class="col-sm-9">
+				      <button type="submit" class="btn btn-default">Оставить заявку</button>
+				    </div>
+				  </div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="cmachine">
+		<img src="./img/cmachine/1.png"><h2>КОФЕМАШИНЫ</h2><hr class="hrbrown">
+		<div class="product">
+			<img src="./img/cmachine/product.png">
+			<div class="description">
+				<h3>Saeco Incanto</h3>
+				<p>Эта компактная кофемашина приготовит вкусные горячие напитки за 10-15 секунд после нажатия одной кнопки! Она идеально впишется в интерьер Вашего офиса и приготовит любимые напитки без утомительного ожидания!</p>
+				<p><img src="./img/cmachine/icon1.png">Количество напитков: 6 видов</p>
+			    <p><img src="./img/cmachine/icon1.png">Снабжение водой: помпа или водопровод</p>
+			    <p><img src="./img/cmachine/icon1.png">Габариты (высота/ширина/длина): 54x47x30</p>
+			    <p><img src="./img/cmachine/icon1.png">Вес (кг): 20</p>
+			    <p><img src="./img/cmachine/icon1.png">Питание: 230 В/50 Гц</p>
+			    <button type="submit" class="btn btn-default">КУПИТЬ</button>
+			</div>
+		</div>
+		<div class="product">
+			<img src="./img/cmachine/product.png">
+			<div class="description">
+				<h3>Saeco Incanto</h3>
+				<p>Эта компактная кофемашина приготовит вкусные горячие напитки за 10-15 секунд после нажатия одной кнопки! Она идеально впишется в интерьер Вашего офиса и приготовит любимые напитки без утомительного ожидания!</p>
+				<p><img src="./img/cmachine/icon1.png">Количество напитков: 6 видов</p>
+			    <p><img src="./img/cmachine/icon1.png">Снабжение водой: помпа или водопровод</p>
+			    <p><img src="./img/cmachine/icon1.png">Габариты (высота/ширина/длина): 54x47x30</p>
+			    <p><img src="./img/cmachine/icon1.png">Вес (кг): 20</p>
+			    <p><img src="./img/cmachine/icon1.png">Питание: 230 В/50 Гц</p>
+			    <button type="submit" class="btn btn-default">КУПИТЬ</button>
+			</div>
+		</div>
+		<div class="product">
+			<img src="./img/cmachine/product.png">
+			<div class="description">
+				<h3>Saeco Incanto</h3>
+				<p>Эта компактная кофемашина приготовит вкусные горячие напитки за 10-15 секунд после нажатия одной кнопки! Она идеально впишется в интерьер Вашего офиса и приготовит любимые напитки без утомительного ожидания!</p>
+				<p><img src="./img/cmachine/icon1.png">Количество напитков: 6 видов</p>
+			    <p><img src="./img/cmachine/icon1.png">Снабжение водой: помпа или водопровод</p>
+			    <p><img src="./img/cmachine/icon1.png">Габариты (высота/ширина/длина): 54x47x30</p>
+			    <p><img src="./img/cmachine/icon1.png">Вес (кг): 20</p>
+			    <p><img src="./img/cmachine/icon1.png">Питание: 230 В/50 Гц</p>
+			    <button type="submit" class="btn btn-default">КУПИТЬ</button>
+			</div>
+		</div>
+	</div>
+	<div class="coffee">
+		<img src="./img/coffe/1.png"><h2>КОФЕ</h2><hr class="hrbrown">
+		<div class="product">
+			<img src="./img/coffe/product.png">
+			<h2>Lavazza Top Class</h2>
+			<p>Вес — 1000 гр. </p>
+			<p>Обжарка — темная</p> 
+			<p>Тип — зерно </p>
+			<p>Состав — 90% арабика и 10% робуста </p>
+			<p>Страна производитель — Италия</p>
+			<button type="submit" class="btn btn-default">КУПИТЬ</button>
+		</div>
+		<div class="product">
+			<img src="./img/coffe/product.png">
+			<h2>Lavazza Top Class</h2>
+			<p>Вес — 1000 гр. </p>
+			<p>Обжарка — темная</p> 
+			<p>Тип — зерно </p>
+			<p>Состав — 90% арабика и 10% робуста </p>
+			<p>Страна производитель — Италия</p>
+			<button type="submit" class="btn btn-default">КУПИТЬ</button>
+		</div>
+		<div class="product">
+			<img src="./img/coffe/product.png">
+			<h2>Lavazza Top Class</h2>
+			<p>Вес — 1000 гр. </p>
+			<p>Обжарка — темная</p> 
+			<p>Тип — зерно </p>
+			<p>Состав — 90% арабика и 10% робуста </p>
+			<p>Страна производитель — Италия</p>
+			<button type="submit" class="btn btn-default">КУПИТЬ</button>
+		</div>
+	</div>
+	<div class="service">
+		<img src="./img/service/1.png"><h2 class="white">СЕРВИС</h2><hr class="hrwhite">
+		<p>Мы предлагаем профессиональный ремонт кофемашин фирм Saeco, Solis, Gaggia.</br>
+		Техническое обслуживание – чистка от кофейного и молочного жира, смазка заварного блока, декальцинация (удаление накипи</br> в гидросистеме, бойлерах и пароблоках кофейного аппарата). Оригинальные запчасти фирм производителей. Также у нас</br> можно заказать запчасти как оригинальные, так и альтернативных поставщиков.</p>
+		<p><b>Виды ремонта:</b></p>
+		<ul>
+			<li>Диагностика – 100 (разборка-сборка, дефектация)</li>
+			<li>Ремонт заварного блока – 200</li>
+			<li>Ремонт бойлера – 300</li>
+			<li>Ремонт насоса – 200</li>
+			<li>Ремонт редуктора – 400</li>
+			<li>Декальцинация, чистка, смазка – 150</li>
+			<li>Замена трубок – 100</li>
+			<li>Ремонт пластмассовых изделий – 50</li>
+			<li>Ремонт электроники – от 600</li>
+		</ul>
+		<p>Благодаря несложным и недорогим действиям, можно избежать затяжного и невыгодного ремонта кофемашины.</p>
+		<p>Предлагаемые услуги не являются полными по всем вопросам звонить:</p>
+		<p><img src="./img/service/phone.png">(050) 183-23-19</p>
+		<p><img src="./img/service/phone.png">(068) 327-71-91</p>
+		<p class="semibold">Александр</p>
+	</div>
+	<div class="jobs">
+		<img src="./img/job/1.png"><h2 class="brown">ВАКАНСИИ</h2><hr class="hrbrown">
+		<div class="job">
+			<h3>Торговый представитель</h3>
+			<ul>
+				<h4 class="brown">Требования:</h4>
+				<li>- Опыт работы на аналогичной должности;</li>
+				<li>- Умение вести переговоры с клиентами, 
+				   работать с возражениями;</li>
+				<li>- Знание техники продаж;</li>
+				<li>- Умение и желание работать в команде.</li>
+			</ul>
+			<ul>
+				<h4 class="brown">ОБЯЗАННОСТИ:</h4>
+				<li>- Выполнение планов продаж;</li>
+				<li>- Поиск и привлечение новых клиентов;</li>
+				<li>- Ведение отчётности.</li>
+			</ul>
+			<ul>
+				<h4 class="brown">МЫ ПРЕДЛАГАЕМ:</h4>
+				<li>- Интересную динамичную работу;</li>
+				<li>- Работу в стабильной и успешной компании;</li>
+				<li>- Официальное трудоустройство и высокую заработную плату;</li>
+				<li>- Все условия для серьезного профессионального и финансового роста;</li>
+				<li>- Компенсация проезда и мобильной связи;</li>
+				<li>- Офис расположен в центре города;</li>
+				<li>- График работы: с 8.00 до 18.00 - понедельник - суббота.</li>
+			</ul>
+			<hr class="hrsmall">
+		</div>
+		<div class="job">
+			<h3>Торговый представитель</h3>
+			<ul>
+				<h4 class="brown">Требования:</h4>
+				<li>- Опыт работы на аналогичной должности;</li>
+				<li>- Умение вести переговоры с клиентами, 
+				   работать с возражениями;</li>
+				<li>- Знание техники продаж;</li>
+				<li>- Умение и желание работать в команде.</li>
+			</ul>
+			<ul>
+				<h4 class="brown">ОБЯЗАННОСТИ:</h4>
+				<li>- Выполнение планов продаж;</li>
+				<li>- Поиск и привлечение новых клиентов;</li>
+				<li>- Ведение отчётности.</li>
+			</ul>
+			<ul>
+				<h4 class="brown">МЫ ПРЕДЛАГАЕМ:</h4>
+				<li>- Интересную динамичную работу;</li>
+				<li>- Работу в стабильной и успешной компании;</li>
+				<li>- Официальное трудоустройство и высокую заработную плату;</li>
+				<li>- Все условия для серьезного профессионального и финансового роста;</li>
+				<li>- Компенсация проезда и мобильной связи;</li>
+				<li>- Офис расположен в центре города;</li>
+				<li>- График работы: с 8.00 до 18.00 - понедельник - суббота.</li>
+			</ul>
+			<hr class="hrsmall">
+		</div>
+		<div class="job">
+			<h3>Торговый представитель</h3>
+			<ul>
+				<h4 class="brown">Требования:</h4>
+				<li>- Опыт работы на аналогичной должности;</li>
+				<li>- Умение вести переговоры с клиентами, 
+				   работать с возражениями;</li>
+				<li>- Знание техники продаж;</li>
+				<li>- Умение и желание работать в команде.</li>
+			</ul>
+			<ul>
+				<h4 class="brown">ОБЯЗАННОСТИ:</h4>
+				<li>- Выполнение планов продаж;</li>
+				<li>- Поиск и привлечение новых клиентов;</li>
+				<li>- Ведение отчётности.</li>
+			</ul>
+			<ul>
+				<h4 class="brown">МЫ ПРЕДЛАГАЕМ:</h4>
+				<li>- Интересную динамичную работу;</li>
+				<li>- Работу в стабильной и успешной компании;</li>
+				<li>- Официальное трудоустройство и высокую заработную плату;</li>
+				<li>- Все условия для серьезного профессионального и финансового роста;</li>
+				<li>- Компенсация проезда и мобильной связи;</li>
+				<li>- Офис расположен в центре города;</li>
+				<li>- График работы: с 8.00 до 18.00 - понедельник - суббота.</li>
+			</ul>
+			<hr class="hrsmall">
+		</div>
+		<h4 class="light brown">ЖДЁМ ВАШИХ РЕЗЮМЕ</h4>
+	</div>
+	<div class="about">
+		<img src="./img/about/1.png"><h2 class="white">О НАС</h2><hr class="hrwhite">
+		<p>Наша компания <b>«COFFEEFORYOU»</b>  предоставляет сотрудничество в любых вопросах</br> относительно кофе для любого вида бизнеса (магазин, киоск, кафе, офис), кофейного</br> оборудования,осуществляет его профессиональное обслуживание (сервис и ремонт), а</br> также предоставляет доставку кофейной продукции и расходников (сахар, стаканчики</br>  и мешалки)в кратчайшие сроки.</p>
+	</div>
+	<div class="contacts">
+		<img src="./img/contacts/map.png" class="map">
+		<div class="c_block">
+			<h2>Контакты</h2><hr class="hrcontacts">
+			<p>Sociable on as carriage my position weddings raillery consider. Do am he horrible distance marriage so although.Mile tell if help they ye full name.</p>
+			<div class="numbers">
+				<p><img src="./img/contacts/phone.png">+38(093)444-88-55</p>
+				<p><img src="./img/contacts/phone.png">+38(093)444-88-55</p>
+				<p><img src="./img/contacts/mail.png">coffe4you@gmail.com</p>
+			</div>
+			<hr class="hrsmall">
+			<h4 class="light brown">ЗАКАЗАТЬ ЗВОНОК</h2>
+				<div class="form-group">
+				    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Имя">
+				</div>
+				<div class="form-group">
+				    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Телефон">
+				</div>
+				<button type="submit" class="btn btn-default">ЗАКАЗАТЬ</button>
+		</div>
+	</div>
+	<footer></footer>
+</body>
+</html>
